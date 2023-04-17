@@ -18,12 +18,23 @@ body {
   background-color: #f9f9fb;
 }
 
-main {
-  min-height: 80vh;
+main{
+  display: grid;
+  grid-template-columns: 1000px;
+  grid-template-rows: 120px 550px;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 80vh                                                                                                                                                                                                                                                                                                                                                          ;
 }
 
-main section {
+main header h2{
+  font-size: 8rem;
+}
+
+main section{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
 }
